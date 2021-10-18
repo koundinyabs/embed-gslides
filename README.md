@@ -1,4 +1,4 @@
-##How to embed Google Slides in a cell
+# How to embed Google Slides in a cell
 
 - Figure out the `deck_id` looking at the URL. This should be the string before `/embed` in the URL.
 - Run the cell below which defines the function to embed GSlide using `iframe`
