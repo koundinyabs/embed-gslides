@@ -9,7 +9,7 @@
 
 # COMMAND ----------
 
-def embedGoogleSlides(deck_id, slide_number):
+def embedGoogleSlides(deck_id, slide_number=1):
   
   displayHTML(f'''
 
@@ -24,7 +24,7 @@ def embedGoogleSlides(deck_id, slide_number):
 
 # COMMAND ----------
 
-embedGoogleSlides('1cCXQ1MWPjwZ3eKAvwRhLavBBw18h2YhXJhtn1cv4GTQ', '1')
+embedGoogleSlides('1cCXQ1MWPjwZ3eKAvwRhLavBBw18h2YhXJhtn1cv4GTQ')
 
 # COMMAND ----------
 
@@ -34,7 +34,7 @@ embedGoogleSlides('1cCXQ1MWPjwZ3eKAvwRhLavBBw18h2YhXJhtn1cv4GTQ', '1')
 # COMMAND ----------
 
 # Embed slides again
-embedGoogleSlides('1cCXQ1MWPjwZ3eKAvwRhLavBBw18h2YhXJhtn1cv4GTQ', '7')
+embedGoogleSlides('1cCXQ1MWPjwZ3eKAvwRhLavBBw18h2YhXJhtn1cv4GTQ', 7)
 
 # COMMAND ----------
 
